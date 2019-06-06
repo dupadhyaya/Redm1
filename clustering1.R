@@ -1,5 +1,6 @@
 # Clustering
 
+
 data <- read.csv("E:/rWork/Projects/edm/studentdata.csv")
 str(data1)
 data1 = data[-(1:6)]
