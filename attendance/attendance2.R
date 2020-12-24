@@ -1,3 +1,4 @@
+
 attendance1 = read.csv('./attendance/attendance1.csv')
 attendance1
 str(attendance1)
@@ -15,3 +16,4 @@ str(attendance2a)
 library(tidyr)
 tidyr_attend = gather(attendance2a, Item, Score, 2:41)
 str(tidyr_attend)
+
